@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Ubuntu Titling Rg';
+    src: url('./assets/webfonts/UbuntuTitling-Bold.eot');
+    src: url('./assets/webfonts/UbuntuTitling-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/webfonts/UbuntuTitling-Bold.woff2') format('woff2'),
+        url('./assets/webfonts/UbuntuTitling-Bold.woff') format('woff'),
+        url('./assets/webfonts/UbuntuTitling-Bold.svg#UbuntuTitling-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.brand-font {
+    font-family: 'Ubuntu Titling Rg', 'Montserrat', serif;
+}
+
+.nav-link {
+    cursor: pointer;
+}

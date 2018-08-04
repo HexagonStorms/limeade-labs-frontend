@@ -15,9 +15,10 @@ import { PricingComponent } from './pricing/pricing.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { FaqComponent } from './faq/faq.component';
 import { OurTeamComponent } from './our-team/our-team.component';
-import { HiringComponent } from './hiring/hiring.component';
 import { BlogComponent } from './blog/blog.component';
 import { FooterComponent } from './footer/footer.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -35,12 +36,13 @@ import { FooterComponent } from './footer/footer.component';
     PortfolioComponent,
     FaqComponent,
     OurTeamComponent,
-    HiringComponent,
     BlogComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
