@@ -9,7 +9,6 @@ import { PartnerSliderComponent } from './partner-slider/partner-slider.componen
 import { AwesomeElementsComponent } from './awesome-elements/awesome-elements.component';
 import { PerksComponent } from './perks/perks.component';
 import { SkillsSectionComponent } from './skills-section/skills-section.component';
-import { VideoSectionComponent } from './video-section/video-section.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
@@ -30,7 +29,6 @@ import { HomeComponent } from './home/home.component';
     AwesomeElementsComponent,
     PerksComponent,
     SkillsSectionComponent,
-    VideoSectionComponent,
     TestimonialComponent,
     PricingComponent,
     PortfolioComponent,
