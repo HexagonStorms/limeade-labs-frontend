@@ -17,6 +17,7 @@ import { BlogComponent } from './blog/blog.component';
 import { FooterComponent } from './footer/footer.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { VideoSectionComponent } from './video-section/video-section.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { HomeComponent } from './home/home.component';
     OurTeamComponent,
     BlogComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    VideoSectionComponent
   ],
   imports: [
     BrowserModule,

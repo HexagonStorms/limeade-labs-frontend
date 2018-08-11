@@ -15,13 +15,13 @@ export class OurTeamComponent implements OnInit {
   staff = [
     {
       name: "Josue Plaza",
-      title: "Lead Developer",
+      title: "Head of Development",
       image: "./assets/images/team/josue_500x667.gif",
       quote: "The way we spend our days is the way we spend our lives."
     },
     {
       name: "Joshua Garza",
-      title: "Lead Designer",
+      title: "Head of Design",
       image: "./assets/images/team/josh_500x667.gif",
       quote: "Live every day as if it were your first--with all the hope and wonderment of a new born ready to take the world."
     },
