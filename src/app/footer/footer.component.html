@@ -70,7 +70,7 @@
           </div>
         </div>
         <div class="col-lg-8">
-          <form class="needs-validation" method="post" action="contact.php">
+          <form class="needs-validation" method="post" action="https://script.google.com/macros/s/AKfycbxDl3_W9942aigFdmXm7fmF_mLfFJ_Y8ND1OWdy/exec" (ngSubmit)="api.sendEmail()" #contactForm="ngForm">
             <div class="row">
               <div class="col-lg-12">
                 <div class="messages"></div>
@@ -80,7 +80,7 @@
               <div class="col-lg-6 col-sm-6">
                 <div class="form-group">
                   <div class="position-relative">
-                    <input type="text" name="name" class="form-control" required="required" data-error="Name is required.">
+                    <input type="text" name="name" class="form-control" required="required" data-error="Name is required." [(ngModel)]="api.contact.name">
                     <label>Name
                       <span class="text-danger">*</span>
                     </label>
@@ -92,7 +92,7 @@
               <div class="col-lg-6 col-sm-6">
                 <div class="form-group">
                   <div class="position-relative">
-                    <input type="email" name="email" class="form-control" required="required" data-error="Valid email is required.">
+                    <input type="email" name="email" class="form-control" required="required" data-error="Valid email is required." [(ngModel)]="api.contact.email">
                     <label>Email
                       <span class="text-danger">*</span>
                     </label>
@@ -106,7 +106,7 @@
               <div class="col-lg-6 col-sm-6">
                 <div class="form-group">
                   <div class="position-relative">
-                    <input type="tel" name="phone" class="form-control">
+                    <input type="tel" name="phone" class="form-control" [(ngModel)]="api.contact.phone">
                     <label>Phone</label>
                     <span class="focus-border bg-green"></span>
                   </div>
@@ -116,7 +116,7 @@
               <div class="col-lg-6 col-sm-6">
                 <div class="form-group">
                   <div class="position-relative">
-                    <input type="text" name="subject" class="form-control" required="required" data-error="Subject is required.">
+                    <input type="text" name="subject" class="form-control" required="required" data-error="Subject is required." [(ngModel)]="api.contact.subject">
                     <label>Subject
                       <span class="text-danger">*</span>
                     </label>
@@ -130,7 +130,7 @@
               <div class="col-lg-12 col-sm-12">
                 <div class="form-group">
                   <div class="position-relative">
-                    <textarea name="message" class="form-control" rows="8" required="required" data-error="Please,leave us a message."></textarea>
+                    <textarea name="message" class="form-control" rows="8" required="required" data-error="Please,leave us a message." [(ngModel)]="api.contact.message"></textarea>
                     <label>Message
                       <span class="text-danger">*</span>
                     </label>
@@ -142,7 +142,7 @@
             </div>
             <div class="row">
               <div class="col-lg-12">
-                <button type="submit" class="btn btn-send btn-green">Send message
+                <button class="btn btn-send btn-green" type="submit">Send message
                   <i class="far fa-paper-plane pl-3"></i>
                 </button>
               </div>
@@ -182,11 +182,11 @@
                 <i class="fab fa-facebook-f"></i>
               </a>
             </li>
-            <li>
+            <!-- <li>
               <a href="#">
                 <i class="fab fa-twitter"></i>
               </a>
-            </li>
+            </li> -->
             <li>
               <a href="mailto:hello@limeadelabs.com">
                 <i class="far fa-envelope"></i>

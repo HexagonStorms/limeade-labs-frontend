@@ -15,7 +15,7 @@ export class FaqComponent implements OnInit {
   questions = [
     {
       title: "Do you have Full Stack Developers on staff or only WordPress developers?",
-      answer: "WordPress is a wonderful CMS (Content Management System) Framework that makes the creation of websites very easy for non-developers. If you have basic computer skills, and you only need a very simple website, you can use WordPress to build the site yourself. This means if an agency only has a WordPress Developer, you would be paying them to do work you could do <strong>yourself</strong>! If you need custom features for your site, you will most likely need the services of an agency with Full Stack Developers on staff. Limeade Labs have Full Stack Developers on staff with a wide variety of skillsets."
+      answer: "WordPress is a wonderful CMS (Content Management System) Framework that makes the creation of websites very easy for non-developers. If you have basic computer skills, and you only need a very simple website, you can use WordPress to build the site yourself. This means if an agency only has a WordPress Developer, you would be paying them to do work you could do yourself! If you need custom features for your site, you will most likely need the services of an agency with Full Stack Developers on staff. Limeade Labs have Full Stack Developers on staff with a wide variety of skillsets."
     },
     {
       title: "Can your agency make an App for us in the future?",

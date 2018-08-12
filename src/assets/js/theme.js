@@ -88,16 +88,16 @@ Design and Developed by: bulltheme.com
         /* =============================================
             6.0 - Home Slider
         ============================================= */
-        $('#home-slider').owlCarousel({
-            loop : true,
-            nav : true,
-            navText: ['<span class="ti-angle-left"></span>' ,'<span class="ti-angle-right"></span>'],
-            dots : false,
-            items : 1,
-            autoplay : true,
-            autoHeight : true,
-            responsiveCla1ss :true,
-        });
+        // $('#home-slider').owlCarousel({
+        //     loop : true,
+        //     nav : true,
+        //     navText: ['<span class="ti-angle-left"></span>' ,'<span class="ti-angle-right"></span>'],
+        //     dots : false,
+        //     items : 1,
+        //     autoplay : true,
+        //     autoHeight : true,
+        //     responsiveCla1ss :true,
+        // });
 
         /* =============================================
             7.0 - Home Scroller Animation

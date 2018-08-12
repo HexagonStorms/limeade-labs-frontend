@@ -50,7 +50,7 @@ export class PortfolioComponent implements OnInit {
       image: "./assets/images/portfolio/strengthpark1-4.png"
     },
     {
-      name: "Driver Texas",
+      name: "Texas Driver",
       description: "Mobile App Design",
       url: "",
       image: "./assets/images/portfolio/dps3-4.png"
