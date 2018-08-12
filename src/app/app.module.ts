@@ -18,6 +18,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { VideoSectionComponent } from './video-section/video-section.component';
+import { WhyChooseUsComponent } from './why-choose-us/why-choose-us.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { VideoSectionComponent } from './video-section/video-section.component';
     BlogComponent,
     FooterComponent,
     HomeComponent,
-    VideoSectionComponent
+    VideoSectionComponent,
+    WhyChooseUsComponent
   ],
   imports: [
     BrowserModule,
