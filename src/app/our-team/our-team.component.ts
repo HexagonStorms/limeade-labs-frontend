@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import * as $ from 'jquery';
 
 @Component({
   selector: 'app-our-team',
@@ -9,16 +8,6 @@ import * as $ from 'jquery';
 export class OurTeamComponent implements OnInit {
 
   constructor() {
-    $('#home-slider').owlCarousel({
-      loop: true,
-      nav: true,
-      navText: ['<span class="ti-angle-left"></span>', '<span class="ti-angle-right"></span>'],
-      dots: false,
-      items: 1,
-      autoplay: true,
-      autoHeight: true,
-      responsiveCla1ss: true,
-    });
   }
 
   ngOnInit() {
